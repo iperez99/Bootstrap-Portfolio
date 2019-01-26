@@ -1,12 +1,27 @@
-footer {
-  background-color: aqua;
-  /* position: absolute;
-  bottom: 0; */
-  width: 100%;
+body {
+  
+  background-image: url('../images/dust_scratches.png');
+  background-repeat: repeat;
 
+}
+
+#profilepic {
+  margin: 0px 3px 1px 3px;
 }
 
 .clearfix {
   clear: both;
   display: block;
 }
+
+footer {
+  text-align: center;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  padding: 25px 25px 5px 25px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
